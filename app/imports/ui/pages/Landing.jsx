@@ -12,8 +12,9 @@ class Landing extends React.Component {
           </Grid.Column>
 
           <Grid.Column width={8}>
-            <h1>Welcome to this template</h1>
-            <p>Now get to work and modify this app!</p>
+            <h1>Aloha</h1>
+            <p>Due to COVID-19, the Kaneohe District Park Pool is only open for lap swimming via reservations at this
+              time. Using this website, you can check the available swim slots as well as make reservations to swim.</p>
           </Grid.Column>
 
         </Grid>

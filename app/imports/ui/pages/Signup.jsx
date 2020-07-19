@@ -11,7 +11,7 @@ class Signup extends React.Component {
   /** Initialize state fields. */
   constructor(props) {
     super(props);
-    this.state = { email: '', password: '', error: '', redirectToReferer: false };
+    this.state = { email: '', password: '', error: '', firstName: '', lastName: '',  redirectToReferer: false };
   }
 
   /** Update the form controls each time the user interacts with them. */
@@ -64,6 +64,27 @@ class Signup extends React.Component {
                   placeholder="Password"
                   type="password"
                   onChange={this.handleChange}
+                />
+                <Form.Input
+                    label="First Name"
+                    name="firstName"
+                    placeholder="First name"
+                    type="firstName"
+                    onChange={this.handleChange}
+                />
+                <Form.Input
+                    label="Last Name"
+                    name="lastName"
+                    placeholder="Last name"
+                    type="lastName"
+                    onChange={this.handleChange}
+                />
+                <Form.Input
+                    label="Phone Number (Without Dashes)"
+                    name="phone"
+                    placeholder="###-###-####"
+                    type="phone"
+                    onChange={this.handleChange}
                 />
                 <Form.Button content="Submit"/>
               </Segment>
