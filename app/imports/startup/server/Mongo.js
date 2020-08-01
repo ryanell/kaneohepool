@@ -1,5 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import { Stuffs } from '../../api/stuff/Stuff.js';
+import { Reservations } from '../../api/reservation/Reservation';
 
 /* eslint-disable no-console */
 
@@ -7,6 +8,7 @@ import { Stuffs } from '../../api/stuff/Stuff.js';
 function addData(data) {
   console.log(`  Adding: ${data.name} (${data.owner})`);
   Stuffs.insert(data);
+  Reservations.insert(data);
 }
 
 /** Initialize the collection if empty. */
