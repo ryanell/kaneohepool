@@ -14,7 +14,8 @@ class Landing extends React.Component {
           <Grid.Column width={8}>
             <h1>Aloha</h1>
             <p>Due to COVID-19, the Kaneohe District Park Pool is only open for lap swimming via reservations at this
-              time. Using this website, you can check the available swim slots as well as make reservations to swim.</p>
+              time. This is a mock up of a website that could be used to check the available swim slots as well as make
+              reservations to swim.</p>
           </Grid.Column>
 
         </Grid>
